@@ -8,11 +8,12 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution items", "{DD589635-AA83-4728-A13D-778EA6C69702}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
+		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Widgets.QualityControl.Tests", "test\Widgets.QualityControl.Tests\Widgets.QualityControl.Tests.csproj", "{80E02DEA-EF4E-4328-8C5C-AC4A4AFABC7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Widgets.QualityControl.Tests", "test\Widgets.QualityControl.Tests\Widgets.QualityControl.Tests.csproj", "{80E02DEA-EF4E-4328-8C5C-AC4A4AFABC7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Widgets.QualityControl.ConsoleEvaluator", "src\Widgets.QualityControl.ConsoleEvaluator\Widgets.QualityControl.ConsoleEvaluator.csproj", "{56CC5A3D-B556-4D5E-B4C3-45DCD1A10D1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Widgets.QualityControl.ConsoleEvaluator", "src\Widgets.QualityControl.ConsoleEvaluator\Widgets.QualityControl.ConsoleEvaluator.csproj", "{56CC5A3D-B556-4D5E-B4C3-45DCD1A10D1E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -13,9 +13,9 @@ public static class SensorLogEvaluator
         return OutputFormatter.FormatOutput(parserResult);
     }
 
-    public static string EvaluateLogFromFile(string logFile)
+    public static string EvaluateLogFromFile(string logFilePath)
     {
-        var logLines = File.ReadLines(logFile);
+        var logLines = File.ReadLines(logFilePath);
 
         var parserResult = LogParser.ParseLogLines(logLines);
 

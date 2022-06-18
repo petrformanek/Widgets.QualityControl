@@ -6,6 +6,9 @@ if (args.Length == 0)
     return;
 }
 
+Console.WriteLine($"Evaluating file '{args[0]}'{Environment.NewLine}.");
+
 var result = SensorLogEvaluator.EvaluateLogFromFile(args[0]);
 
+Console.WriteLine("Result:");
 Console.WriteLine(result);

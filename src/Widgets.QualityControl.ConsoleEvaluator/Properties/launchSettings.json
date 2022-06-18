@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Widgets.QualityControl.ConsoleEvaluator": {
+      "commandName": "Project",
+      "commandLineArgs": "SampleLog.txt"
+    }
+  }
+}
